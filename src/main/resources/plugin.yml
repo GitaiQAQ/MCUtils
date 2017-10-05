@@ -1,0 +1,25 @@
+name: MCUtils
+version: 1.0
+author: Gitai
+main: me.gitai.mcutils.Main
+description: Basic Mods for Gitai`s Minecraft Server
+//depend: //插件的前置依赖
+website: https://gitai.me
+
+commands:
+  home:
+    description: Teleports you to your home.
+    usage: /<command>
+    aliases: []
+  sethome:
+    description: Sets your home at your current location.
+    usage: /<command>
+    aliases: []
+  back:
+    description: Teleports you to your last dead location or teleporting location.
+    usage: /<command>
+    aliases: []
+  spawn:
+    description: Teleports you to spawn.
+    usage: /<command>
+    aliases: []
